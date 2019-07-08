@@ -18,6 +18,8 @@ async def on_message(message):
         msg = await client.wait_for('message', check=check)
         await channel.send('Hello {.author}!'.format(msg))
 
+#TODO:
+#dodać obsługę witania się z dołączającymi osobami
 
 @client.event
 async def on_ready():
