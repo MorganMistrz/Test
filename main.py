@@ -1,10 +1,10 @@
 
-import Discord
+import discord
 
 
 TOKEN = 'NTk3MDM0MzA0ODU3NDQwMjU3.XSCNkg.gI9YzjTOwzz64jMaXZGvhibmo0k'
 
-client = Discord.Client()
+client = discord.Client()
 
 @client.event
 async def on_message(message):
