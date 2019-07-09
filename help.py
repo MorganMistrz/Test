@@ -2,7 +2,7 @@
 async def on_message(message):
     if message.content.lower().startswith('!help'):
         commands = {}
-        commands['&Owner'] = 'Shows who is the Owners of the Devil Bot'
+        commands['&Owner'] = 'Shows who is the Owners of the Test1'
         commands['&Invite'] = 'Type &Invite Gives you a link to inv the bot to Your server!'
         commands['&Kick'] = 'Type &Kick @mention'
         commands['&purge'] = 'Type &purge <number>'
